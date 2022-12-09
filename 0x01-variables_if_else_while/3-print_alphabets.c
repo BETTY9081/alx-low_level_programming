@@ -12,8 +12,9 @@ int main(void)
 	for (ul = 'a'; ul <= 'z'; ul++)
 		putchar(ul);
 
-	for (ul - 'A'; ul <= 'Z'; ul++)
+	for (ul = 'A'; ul <= 'Z'; ul++)
 		putchar(ul);
+	
 	putchar('\n');
 
 	return (0);
