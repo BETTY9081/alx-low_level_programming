@@ -11,7 +11,7 @@ int main(void)
 
 	for (tn = '0'; tn <= '9'; tn++)
 	{
-		for (on = '0'; on <= '0'; on++)
+		for (on = '0'; on <= '9'; on++)
 		{
 			if (!((on == tn) || (tn > on)))
 			{
