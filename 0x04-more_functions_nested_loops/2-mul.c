@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * mul - multiplies two intergers
  * @a: the first integer
