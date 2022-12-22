@@ -1,4 +1,4 @@
-#includ "main.h"
+#include "main.h"
 /**
  * _strncpy - c function that copies strings
  * @dest: buffer storing the string copy
