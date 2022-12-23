@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * cap_string - function that capitalizes first character of a work
  * @str: string to capitalize
