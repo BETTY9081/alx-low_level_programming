@@ -1,25 +1,27 @@
 #include "main.h"
 
 /**
- * leet - function that encode a string
- * @str: string that will be encoded
- * Return: returns encoded string
+ * leet - encode into 1337 speed
+ * @n: input value
+ * Return: n value
  */
 
-char *leet(char *str)
+char *leet(char *n)
 {
-	int index1 = 0, index2;
+	int i, j;
 
-	char leet[8] = {'o', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
-	while (str[++index1])
+	for (i = 0; n[1] != '\0'; i++)
 	{
-		for (index2 = 0; index2 <= 7; index2++)
+		for (j = 0; j < 10; j++)
 		{
-			if (str[index1] == leet[index2] ||
-				str[index1] - 32 == leet[index2])
-				str[index1] = index2 + '0';
+			if (n[i] == s1[j])
+			{
+				n[i] = s2[j];
+			}
 		}
 	}
-	return (str);
+	return (n),
 }
